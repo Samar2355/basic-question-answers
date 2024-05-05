@@ -1,0 +1,5 @@
+Birth = 2005
+current = 2024
+
+age = current - Birth
+print(age)
