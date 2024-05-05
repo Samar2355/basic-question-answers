@@ -1,0 +1,11 @@
+def circle_calc():
+    radius = int(input('Radius: '))
+    
+    area = round(3.14 * radius * radius,2)
+    diameter = round(2 * radius,2)
+    circumference = round(2 * 3.14 * radius,2)
+    
+
+    print("Area:",area,"Diameter:",diameter,"Circumference:",circumference)
+circle_calc()
+    
