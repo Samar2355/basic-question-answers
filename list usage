@@ -1,0 +1,33 @@
+
+first = int(cost[1])  - int(cost[0])
+print(f'${first}')
+
+second = int(cost[0]) + int(cost[1]) + int(cost[2])
+print(f'${second}')
+
+
+for key in cost:
+    flag = False
+    if int(key) == 2000:
+        flag = True
+if flag == True:
+    print("Yes")
+else:
+ print("No")
+
+cost.append('1980')
+
+print(cost)
+
+
+new_cost = cost.index('2130')
+
+true_cost = cost[new_cost]
+
+true_cost = str(int(true_cost) - 200)
+
+cost[new_cost] = true_cost
+
+print(cost)
+
+
