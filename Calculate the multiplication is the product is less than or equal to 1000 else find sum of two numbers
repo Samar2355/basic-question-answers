@@ -1,0 +1,12 @@
+num_1 = input("Number one: ")
+num_2 = input("Number two: ")
+
+num_1 = int(num_1)
+num_2 = int(num_2)
+
+num_3 = num_1*num_2
+
+if num_3 >= 1000:
+    print(f'The result is {num_1 + num_2}')
+else:
+    print(f'The result is {num_3}')
